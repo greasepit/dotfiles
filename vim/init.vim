@@ -1,1 +1,0 @@
-/home/xu/.vimrc
