@@ -1,0 +1,7 @@
+xrandr --output DVI-0 --auto --output HDMI-0 --off &
+compton &
+
+feh --bg-fill .config/Background.png
+
+tint2 & 
+
