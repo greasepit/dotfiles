@@ -8,11 +8,11 @@
 # Background 1: 
 rounded = 0
 border_width = 0
-border_sides = TBLR
+border_sides = T
 border_content_tint_weight = 0
 background_content_tint_weight = 0
 background_color = #323232 0
-border_color = #323232 0
+border_color = #999999 100
 background_color_hover = #323232 60
 border_color_hover = #323232 0
 background_color_pressed = #323232 60
@@ -20,27 +20,27 @@ border_color_pressed = #323232 0
 
 # Background 2: Default task, Iconified task
 rounded = 1
-border_width = 0
-border_sides = TBLR
+border_width = 2
+border_sides = B
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #777777 20
+background_color = #777777 0
 border_color = #777777 0
-background_color_hover = #aaaaaa 22
-border_color_hover = #eaeaea 0
-background_color_pressed = #555555 4
+background_color_hover = #aaaaaa 0
+border_color_hover = #eaeaea 20
+background_color_pressed = #555555 0
 border_color_pressed = #eaeaea 0
 
 # Background 3: Active task
 rounded = 1
-border_width = 0
-border_sides = TBLR
+border_width = 1
+border_sides = B
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #888888 40
-border_color = #ffffff 0
-background_color_hover = #999999 22
-border_color_hover = #eaeaea 0 
+background_color = #888888 0
+border_color = #ff9933 40
+background_color_hover = #999999 0
+border_color_hover = #eaeaea 50 
 background_color_pressed = #555555 4
 border_color_pressed = #eaeaea 0 
 
@@ -72,7 +72,7 @@ border_color_pressed = #323232 0
 
 #-------------------------------------
 # Panel
-panel_items = LTSC
+panel_items = LTC
 panel_size = 100% 35
 panel_margin = 0 0
 panel_padding = 0 0 0
@@ -89,7 +89,7 @@ autohide_hide_timeout = 0.5
 autohide_height = 2
 strut_policy = follow_size
 panel_window_name = tint2
-disable_transparency = 1
+disable_transparency = 0
 mouse_effects = 1
 font_shadow = 0
 mouse_hover_icon_asb = 100 0 10
@@ -101,7 +101,7 @@ scale_relative_to_screen_height = 0
 # Taskbar
 taskbar_mode = single_desktop
 taskbar_hide_if_empty = 0
-taskbar_padding = 50 4 2
+taskbar_padding = 50 0 2
 taskbar_background_id = 1
 taskbar_active_background_id = 0
 taskbar_name = 0
@@ -129,7 +129,8 @@ task_padding = 2 2 4
 task_tooltip = 1
 task_thumbnail = 1
 task_thumbnail_size = 150
-task_font_color = #f9f9f9 100
+task_font_color = #727272 100
+task_active_font_color = #ff8000 70
 task_background_id = 2
 task_active_background_id = 3
 task_urgent_background_id = 4
@@ -157,7 +158,7 @@ launcher_background_id = 1
 launcher_icon_background_id = 1
 launcher_icon_size = 16
 launcher_icon_asb = 100 0 0
-launcher_icon_theme_override = 0
+launcher_icon_theme_override = 1
 startup_notifications = 1
 launcher_tooltip = 0
 launcher_item_app = firefox.desktop
@@ -168,13 +169,13 @@ launcher_item_app = /usr/share/applications/gnome-terminal.desktop
 #-------------------------------------
 # Clock
 #time1_format = %H:%M
-time1_format = %a %d %b %V | %H:%M
+time1_format = %a %d %b  |  %V  |  %H:%M
 time1_font = Roboto 10
 time1_timezone = 
 time2_timezone = 
-clock_font_color = #ffffff 100
+clock_font_color = #ff8000 70
 clock_padding = 15 0
-clock_background_id = 0
+clock_background_id = 3
 clock_tooltip = 
 clock_tooltip_timezone = 
 clock_lclick_command = 
